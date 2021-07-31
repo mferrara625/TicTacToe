@@ -26,61 +26,61 @@ public class Main {
             System.out.println("\n");
             System.out.println(gameboard);
             System.out.println("\n");
-            if(gameboard.s1 != " " && gameboard.s2 != " " && gameboard.s3 != " " && gameboard.s4 != " " && gameboard.s5 != " " && gameboard.s6 != " " && gameboard.s7 != " " && gameboard.s8 != " " && gameboard.s9 != " "){
+            if(gameboard.s1 != "1" && gameboard.s2 != "2" && gameboard.s3 != "3" && gameboard.s4 != "4" && gameboard.s5 != "5" && gameboard.s6 != "6" && gameboard.s7 != "7" && gameboard.s8 != "8" && gameboard.s9 != "9"){
                 System.out.println("Game Over");
                 break;
             }
             System.out.println("Choose a position (1 - 9)");
             int selection = scan.nextInt();
-            if(selection == 1 && gameboard.s1 == " "){
+            if(selection == 1 && gameboard.s1 == "1"){
                 gameboard.s1 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 2 && gameboard.s2 == " "){
+            else if (selection == 2 && gameboard.s2 == "2"){
                 gameboard.s2 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 3 && gameboard.s3 == " "){
+            else if (selection == 3 && gameboard.s3 == "3"){
                 gameboard.s3 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 4 && gameboard.s4 == " "){
+            else if (selection == 4 && gameboard.s4 == "4"){
                 gameboard.s4 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 5 && gameboard.s5 == " "){
+            else if (selection == 5 && gameboard.s5 == "5"){
                 gameboard.s5 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 6 && gameboard.s6 == " "){
+            else if (selection == 6 && gameboard.s6 == "6"){
                 gameboard.s6 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 7 && gameboard.s7 == " "){
+            else if (selection == 7 && gameboard.s7 == "7"){
                 gameboard.s7 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 8 && gameboard.s8 == " "){
+            else if (selection == 8 && gameboard.s8 == "8"){
                 gameboard.s8 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;
                 inActivePlayer = holder;
             }
-            else if (selection == 9 && gameboard.s9 == " "){
+            else if (selection == 9 && gameboard.s9 == "9"){
                 gameboard.s9 = activePlayer.symbol;
                 holder = activePlayer;
                 activePlayer = inActivePlayer;

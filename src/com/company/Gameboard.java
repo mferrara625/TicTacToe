@@ -1,15 +1,15 @@
 package com.company;
 
 public class Gameboard {
-    String s1 = " ";
-    String s2 = " ";
-    String s3 = " ";
-    String s4 = " ";
-    String s5 = " ";
-    String s6 = " ";
-    String s7 = " ";
-    String s8 = " ";
-    String s9 = " ";
+    String s1 = "1";
+    String s2 = "2";
+    String s3 = "3";
+    String s4 = "4";
+    String s5 = "5";
+    String s6 = "6";
+    String s7 = "7";
+    String s8 = "8";
+    String s9 = "9";
     public Gameboard(){
 
     }
